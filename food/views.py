@@ -42,4 +42,4 @@ def delete_item(request,id):
     if request.method=="POST":
         item.delete()
         return redirect('food:index')
-    return render(request,'food/item-delete.html',{'item':item})    
+    return render(request,'food/item-delete.html',{'item': item})    
