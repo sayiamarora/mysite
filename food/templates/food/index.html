@@ -15,11 +15,7 @@
                 <a href="{% url 'food:detail' item.id %}" class="btn btn-success">Details</a>
             </div>
         </div>
-        <ul>
-            <li>
-                <a href="">{{ item.id }} -- {{ item.item_name }}</a>
-            </li>
-        </ul>
+        
         {% endfor %}
     </div>
 {% endblock %}
